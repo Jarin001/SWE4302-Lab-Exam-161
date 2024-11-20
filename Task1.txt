@@ -1,0 +1,18 @@
+Inventory System:
+<44-67>, <if-else>, Nested if-else conditions used multiple times
+<78-99>, <switch-case>, multiple switch case statements used
+<78-99>, <conditional complexity>, the conditions given in switch cases are complex
+<80,84,85,87,91,93>, <magic numbers>, the explanation for the given numbers like 0.85, 0.95,100 etc. are not given 
+<41,42>, <long parameters>, multiple parameters are passed and it's also a code smell if any of them is null.
+<1-198>, <long class>, when a class is too long its hard to keep track and hence increases the chances for a code smell
+<1-198>, <shotgun surgery>, for any change in the code, the whole code needs to be modified
+<80,84,85,87,91,93>, <duplicate codes>, duplication of codes
+<50-58>, <premititive obession>, the changing of the data types
+<41-72>, <long method>, its hard to keep track in long methods
+
+
+Global Inventory Data:
+
+<9-13>, <global>, the use of static is not a good practice
+<16>, <magic number>, the explanation for the 100
+<16>, <premititive obession>, the use of percantage as double  
