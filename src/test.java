@@ -25,5 +25,21 @@ public class test {
         assertEquals(expectedOutput, i,1.0);
     }
 
+    @Test
+    public void StrawberrySwirl(){
+        StrawberrySwirl ice= new StrawberrySwirl();
+        double i= ice.getPricePerScoop();
+        double expectedOutput=2.75;
+        assertEquals(expectedOutput, i,1.0);
+    }
+
+    @Test
+    public void Pistachio(){
+        PistachioDelight ice= new PistachioDelight();
+        double i= ice.getPricePerScoop();
+        double expectedOutput=3.25;
+        assertEquals(expectedOutput, i,1.0);
+    }
+
 
 }
